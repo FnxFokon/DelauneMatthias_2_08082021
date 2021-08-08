@@ -1,0 +1,126 @@
+html{
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    
+}
+.section {
+    margin-left: 50px;
+}
+/* Partie de l'entête Logo+Nav*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    width: 100px;
+	height: auto;
+    margin: 50px;
+}
+nav{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 15px;
+    font-size: 1.1em;
+}
+header a{
+    color: #0065FC;
+    text-decoration:none;      
+}
+#inscri{
+    margin-top: 50px;
+    font-weight: bold;
+}
+#heberg{
+    border-top: 2px solid #0065fc;
+    padding-top: 48px;
+}
+#act{
+    margin-top: 50px;
+    color: black;
+}
+/* Partie du premier article de la premiere section ( BARRE DE RECHERCHE )*/
+
+.section p{
+    font-size: 0.8em;
+}
+form{
+    height: 50px;
+    display: flex;
+    margin-top: 50px;
+}
+form i{
+    padding: 17px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#search{
+    padding: 10px;
+    width: auto;
+    border: 1px solid #F2F2F2;
+    border-right: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+#bouton{
+    width: 50px;
+    font-size: 1.1em;
+    
+    background-color: #0065FC;
+    color: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 15px;
+   
+}
+
+
+/* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
+
+#filtre{
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    list-style: none;
+    padding-top: 30px;
+    font-size: 1.1em;
+}
+#filtre li{
+    
+    height: 50px;
+}
+#filtre li p{
+    width: 200px;
+}
+#filtre li i{
+    color:#0065FC; 
+    width: 50px;
+    height: 50px;
+    background-color: #DEEBFF;
+    border-radius: 40px;
+}
+
+.boutton{
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-left: none;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.boutton:hover{
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+.section p i{
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #0065FC;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-radius: 15px;
+}
