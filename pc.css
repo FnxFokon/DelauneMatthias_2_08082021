@@ -1,0 +1,183 @@
+/* @font-face {
+    font-family: 'raleway';
+    src: url('../police/raleway/rrw1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+html{
+    font-family: 'Raleway', sans-serif;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    /* pour les IDs */
+    width: 100px;
+	height: auto;
+    margin: 50px;
+}
+
+nav{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 15px;
+    font-size: 1.1em;
+}
+header a{
+    color: #0065FC;
+    text-decoration:none;
+        
+}
+#inscri{
+    margin-top: 50px;
+    font-weight: bold;
+}
+#heberg{
+    border-top: 2px solid #0065fc;
+    padding-top: 48px;
+}
+#act{
+    margin-top: 50px;
+    color: black;
+}
+/* la partie du dessus c'est l'en tete*/
+/* la partie du dessous c'est la première section*/
+main{
+    margin: 50px;
+}
+
+form{
+    width: 420px;
+    display: flex;
+}
+form i{
+
+    padding: 17px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+form {
+    height: 50px;
+}
+#search{
+    padding: 10px;
+    width: 234px;
+    border: 1px solid #F2F2F2;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+#bouton{
+    width: 134px;
+    font-size: 1.1em;
+    background-color: #0065FC;
+    color: white;
+    border: 1px solid #0065FC;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+main section p{
+    font-size: 0.9em;
+}
+/*La partie du dessus c'est le premier article de la premiere section*/
+/*La partie du dessous c'est le deuxieme article de la premiere section*/
+ul{
+    display: flex;
+    font-weight: bold;
+    list-style: none;
+    padding-top: 50px;
+    font-size: 1.1em;
+}
+li{
+    margin-right: 25px;
+}
+ul li i::before{
+    display: inline-block;
+    color:#0065FC; 
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #DEEBFF;
+    border-radius: 40px;
+}
+ul li p{
+    margin-right: 30px;
+}  
+.filtre{
+    width: auto;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-left: none;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+p i{
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #0065FC;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.class{
+    pour les class 
+border-left: 5px solid white;
+border-right: 5px solid white;
+border-top: 5px solid white;
+border-radius: 10px solid white;
+} */
+/* .class:hover{ (survoler)
+    color: green;
+    border-left: 3px solid black;
+}
+.class:active{ 
+    color:red;
+}
+.class:visited{ (lien visiter)
+    color: none;
+}   */
+
+
+/*  font-size: 14px; taille d'un texte flat
+    font-size: large; taille d'un texte relative 
+    Font-size: 1.0em taille d'un texte relative mais plus flexible avec plus de valeur */
