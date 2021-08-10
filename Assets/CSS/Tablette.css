@@ -15,32 +15,26 @@
 .section1{
     flex-direction: column-reverse; 
 }
-.article{
-    margin: auto;
-}
-.liste{
-    max-width: 650px;
-}
 #hebergement{
-    flex-direction: column;
-    width: 650px;
-}
-#populaire{
-    width: 650px;
-}
-.liste .fas{
-    color: #0065FC;
-}
-.liste span .fas{
-    color: #F2F2F2;
-}
-.liste li a{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    width: 420px;
 }
-.liste a .fas{
-    color: black;
-    margin-top: 25px;
-    margin-right: 40px;
-    font-size: 1.4em;
+.heberg{
+    display: flex;
+    width: 345px;
+    height: 144px;
+    margin-right: 0px;
+    margin-bottom: 34px;
+}
+.imgheberg{
+    width: 127px; 
+    height: 134px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 15px;
+}
+.txtheberg{
+    padding-left: 15px;
+    line-height: normal;
+    font-size: medium;
 }

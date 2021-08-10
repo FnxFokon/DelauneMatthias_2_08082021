@@ -19,17 +19,17 @@ nav{
     width: 35%;
     display: flex;
     justify-content: space-around;
-    padding-right: 15px;
     font-size: 1.1em;
 }
 header a{
     color: #0065FC;
     text-decoration:none;      
 }
-#inscri{
+nav div{
     margin-top: 50px;
     font-weight: bold;
 }
+
 #heberg{
     border-top: 2px solid #0065fc;
     padding-top: 48px;
@@ -41,18 +41,24 @@ header a{
 
 /* Partie du premier article de la premiere section ( BARRE DE RECHERCHE )*/
 
+.section h1{
+    font-size: 1.4em;
+}
+.section p{
+    font-size: 0.9em;
+}
 form{
     width: 420px;
     display: flex;
+}
+form {
+    height: 50px;
 }
 form i{
     padding: 17px;
     background-color: #F2F2F2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-}
-form {
-    height: 50px;
 }
 #search{
     padding: 10px;
@@ -71,9 +77,6 @@ form {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-main section p{
-    font-size: 0.9em;
-}
 
 /* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
 
@@ -89,20 +92,22 @@ main section p{
     margin-right: 25px;
     height: 50px;
 }
+#filtre li p{
+    margin-right: 30px;
+}
 #filtre li i{
     color:#0065FC; 
-    width: 50px;
+    
     height: 50px;
     text-align: center;
     background-color: #DEEBFF;
     border-radius: 40px;
 }
-#filtre li p{
-    margin-right: 30px;
-}
+
 .boutton{
-    width: auto;
+    
     height: 50px;
+    
     font-weight: bold;
     font-size: 1.1em;
     background-color: white;
