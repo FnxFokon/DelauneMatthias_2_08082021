@@ -1,31 +1,49 @@
-html{
+html, body, header, section, footer{
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
-.section {
+header, section {
     margin-left: 50px;
+    margin-right: 50px;
 }
+.bleu{
+    color: #0065FC;
+}
+.gris{
+    color: #F2F2F2;
+}
+
 /* Partie de l'entête Logo+Nav*/
 
 header{
     display: flex;
+    width: auto;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 #logo{
     width: 100px;
 	height: auto;
-    margin: 50px;
+    margin-top: 50px;
 }
 nav{
-    width: 35%;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
     font-size: 1.1em;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-top: 50px;
+    padding-right: 30px;
 }
 header a{
     color: #0065FC;
     text-decoration:none;      
 }
-nav div{
+#inscri{
     margin-top: 50px;
     font-weight: bold;
 }
@@ -35,7 +53,6 @@ nav div{
     padding-top: 48px;
 }
 #act{
-    margin-top: 50px;
     color: black;
 }
 
@@ -48,28 +65,25 @@ nav div{
     font-size: 0.9em;
 }
 form{
-    width: 420px;
     display: flex;
-}
-form {
     height: 50px;
 }
-form i{
+.pos{
     padding: 17px;
     background-color: #F2F2F2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-#search{
+#txt{
     padding: 10px;
-    width: 234px;
     border: 1px solid #F2F2F2;
     font-size: 1.1em;
     font-weight: bold;
     color: black;
 }
-#bouton{
-    width: 134px;
+#search{
+    display: initial;
+    height: 50px;
     font-size: 1.1em;
     background-color: #0065FC;
     color: white;
@@ -77,44 +91,51 @@ form i{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+#search1{
+    display: none;
+}
 
 /* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
-
+#filtr{
+    display: flex;
+    align-items: center;
+   
+}
 #filtre{
     display: flex;
     font-weight: bold;
     list-style: none;
-    padding-top: 50px;
     font-size: 1.1em;
-    margin-bottom: 40px;
 }
 #filtre li{
-    margin-right: 25px;
-    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 40px;
+    border: 2px solid #F2F2F2;
+    border-left: none;
 }
+#filtre li:hover{
+    background-color: #DEEBFF;
+}
+
 #filtre li p{
     margin-right: 30px;
 }
 #filtre li i{
-    color:#0065FC; 
-    
-    height: 50px;
-    text-align: center;
     background-color: #DEEBFF;
-    border-radius: 40px;
+    min-width: 20px;
+    padding: 15px;
+    border-radius: 50px;
 }
-
 .boutton{
-    
-    height: 50px;
-    
+    background-color: white;
+    height: 45px;
     font-weight: bold;
     font-size: 1.1em;
-    background-color: white;
-    border: 2px solid #F2F2F2;
-    border-left: none;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border:none;
+    border-radius: 40px;
 }
 .boutton:hover{
     color: #0065FC;
@@ -123,7 +144,6 @@ form i{
 .section p i{
     padding: 5px 10px;
     margin-right: 10px;
-    color: #0065FC;
     background-color: white;
     border: 2px solid #F2F2F2;
     border-radius: 15px;
@@ -136,7 +156,7 @@ form i{
 }
 .article{
     display: flex;
-    margin-left: 40px;
+    justify-content: space-around;
 }
 .liste{
     list-style: none;
@@ -146,26 +166,33 @@ form i{
 #hebergement{
     display: flex;
     flex-wrap: wrap;
-    width: 880px;
+    width: 840px;
+    margin-right: 40px;
+}
+.bloc1{
+    display: flex;
+    flex-wrap: wrap;
 }
 #populaire{
     display: flex;
     flex-direction: column;
-    width: 420px;
+    margin-right: 40px;
 }
 #hebergement li h2{
-    margin: 40px 400px 30px 0px; 
+    margin: 30px 400px 0px 0px; 
 }
 .heberg{
     width: 245px;
     height: 200px;
     background-color: white;
     margin-right: 30px;
+    margin-bottom: 30px;
     border-radius: 20px;
 }
 .imgheberg{
     width: 235px; 
     height: 114px;
+    object-fit: cover;
     border: 5px solid white;
     border-bottom: 1px;
     border-top-left-radius: 20px;
@@ -176,36 +203,42 @@ form i{
     line-height: 6px;
     font-size: 0.8em;
 }
+.affplus {
+    font-weight: bolder;
+    border: none;
+}
 .pop{
     display: flex;
     width: 345px;
     height: 144px;
     background-color: white;
+    margin-right: 40px;
     margin-bottom: 34px;
     border-radius: 20px;
 }
 .imgpop{
     width: 127px; 
     height: 134px;
+    object-fit: cover;
     border: 5px solid white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 .txtpop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     padding-left: 15px;
+    font-size: 0.8em;
 }
-.liste .fas{
-    color: #0065FC;
-}
-.liste span .fas{
-    color: #F2F2F2;
+.txtpop span{
+    display: flex;
 }
 .liste li a{
     display: flex;
     justify-content: space-between;
 }
 .liste a .fas{
-    color: black;
     margin-top: 25px;
     margin-right: 40px;
     font-size: 1.4em;

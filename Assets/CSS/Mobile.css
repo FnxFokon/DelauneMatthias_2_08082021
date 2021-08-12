@@ -1,0 +1,13 @@
+#search{
+    display: none;
+}
+#search1{
+    display: initial;
+    height: 50px;
+    font-size: 1.1em;
+    background-color: #0065FC;
+    color: white;
+    border: 1px solid #0065FC;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

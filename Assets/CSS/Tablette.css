@@ -2,7 +2,7 @@
 /* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
 
 #filtre{
-    margin: auto;
+    margin: 10px;
 }
 #filtre li{
     margin-right: 10px;
@@ -15,26 +15,10 @@
 .section1{
     flex-direction: column-reverse; 
 }
-#hebergement{
-    display: flex;
-    flex-direction: column;
-    width: 420px;
+.bloc1{
+    
+    margin-bottom: 10px;
 }
 .heberg{
-    display: flex;
-    width: 345px;
-    height: 144px;
-    margin-right: 0px;
-    margin-bottom: 34px;
-}
-.imgheberg{
-    width: 127px; 
-    height: 134px;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 15px;
-}
-.txtheberg{
-    padding-left: 15px;
-    line-height: normal;
-    font-size: medium;
+    margin: 5px;
 }
