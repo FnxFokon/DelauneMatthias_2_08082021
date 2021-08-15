@@ -1,5 +1,5 @@
 html, body, header, section, footer{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Arial, sans-serif;
     margin: 0;
 }
 header, section {
@@ -179,7 +179,7 @@ form{
     margin-right: 40px;
 }
 #hebergement li h2{
-    margin: 30px 400px 0px 0px; 
+    margin: 30px 350px 30px 0px; 
 }
 .heberg{
     width: 245px;
@@ -204,8 +204,10 @@ form{
     font-size: 0.8em;
 }
 .affplus {
+    padding: 10px;
     font-weight: bolder;
-    border: none;
+    text-decoration: none;
+    color: black;
 }
 .pop{
     display: flex;
