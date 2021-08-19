@@ -1,3 +1,8 @@
+@media screen and (max-width:768px){
+    
+    /* Partie de l'entête Logo+Nav*/
+    
+    /* Partie du premier article de la premiere section ( BARRE DE RECHERCHE )*/
 #search{
     display: none;
 }
@@ -10,4 +15,18 @@
     border: 1px solid #0065FC;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+/* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
+
+#filtr{
+    flex-direction: column;
+}
+
+/* Partie Hebergement et les plus populaire*/
+
+
+
+
+
 }

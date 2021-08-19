@@ -96,10 +96,10 @@ form{
 }
 
 /* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
+
 #filtr{
     display: flex;
     align-items: center;
-   
 }
 #filtre{
     display: flex;
@@ -153,33 +153,28 @@ form{
 
 .section1{
     display: flex;
-}
-.article{
-    display: flex;
-    justify-content: space-around;
+    margin: 40px;
 }
 .liste{
     list-style: none;
+}
+.marseille{
+    margin-right: 40px;
     background-color: #F2F2F2;
     border-radius: 20px;
+}
+.popu{
+    margin-right: 40px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+.titremar{
+    padding: 25px 0px 0px 40px;
 }
 #hebergement{
     display: flex;
     flex-wrap: wrap;
     width: 840px;
-    margin-right: 40px;
-}
-.bloc1{
-    display: flex;
-    flex-wrap: wrap;
-}
-#populaire{
-    display: flex;
-    flex-direction: column;
-    margin-right: 40px;
-}
-#hebergement li h2{
-    margin: 30px 350px 30px 0px; 
 }
 .heberg{
     width: 245px;
@@ -204,10 +199,13 @@ form{
     font-size: 0.8em;
 }
 .affplus {
-    padding: 10px;
+    padding: 20px 0px 20px 40px;
     font-weight: bolder;
     text-decoration: none;
     color: black;
+}
+.etoile{
+    display: flex;
 }
 .pop{
     display: flex;
@@ -227,21 +225,17 @@ form{
     border-bottom-left-radius: 20px;
 }
 .txtpop{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     padding-left: 15px;
     font-size: 0.8em;
 }
-.txtpop span{
-    display: flex;
-}
-.liste li a{
+.titrepop{
     display: flex;
     justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 25px;
 }
-.liste a .fas{
-    margin-top: 25px;
+.graph{
+    padding-top: 25px;
     margin-right: 40px;
     font-size: 1.4em;
 }

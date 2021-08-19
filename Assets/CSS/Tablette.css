@@ -1,4 +1,5 @@
-
+@media screen and (max-width:991px){
+    
 /* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
 
 #filtre{
@@ -13,11 +14,16 @@
 /* Partie Hebergement et les plus populaire*/
 
 .section1{
-    flex-direction: column-reverse; 
+    flex-direction: column-reverse;
 }
-.bloc1{
-    margin-bottom: 10px;
+.popu{
+    margin-bottom: 40px;
+    justify-content: space-evenly;
 }
-.heberg{
-    margin-right: 10px;
+#populaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 }
