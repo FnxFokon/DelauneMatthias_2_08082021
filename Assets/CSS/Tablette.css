@@ -20,6 +20,9 @@
     margin-bottom: 40px;
     justify-content: space-evenly;
 }
+#hebergement{
+    max-width: auto;
+}
 #populaire{
     display: flex;
     flex-direction: column;

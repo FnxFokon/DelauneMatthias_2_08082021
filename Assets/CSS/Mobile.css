@@ -1,29 +1,43 @@
 @media screen and (max-width:768px){
     
-    /* Partie de l'entête Logo+Nav*/
-    
-    /* Partie du premier article de la premiere section ( BARRE DE RECHERCHE )*/
-#search{
-    display: none;
-}
-#search1{
-    display: initial;
-    height: 50px;
-    font-size: 1.1em;
-    background-color: #0065FC;
-    color: white;
-    border: 1px solid #0065FC;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
+        /* Partie de l'entête Logo+Nav*/
+   
+    nav{
+        flex-wrap: wrap-reverse;
+        flex-direction: column;
+        
+    }    
 
-/* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
+    nav li a{
+        border-bottom: 3px solid #f2f2f2;
+        padding-bottom: 15px;
+    }
+    #inscri{
+        position: absolute;
+    }
 
-#filtr{
-    flex-direction: column;
-}
+        /* Partie du premier article de la premiere section ( BARRE DE RECHERCHE )*/
+    #search{
+        display: none;
+    }
+    #search1{
+        display: initial;
+        height: 50px;
+        font-size: 1.1em;
+        background-color: #0065FC;
+        color: white;
+        border: 1px solid #0065FC;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
 
-/* Partie Hebergement et les plus populaire*/
+        /* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
+
+    #filtr{
+        flex-direction: column;
+    }
+
+        /* Partie Hebergement et les plus populaire*/
 
 
 
