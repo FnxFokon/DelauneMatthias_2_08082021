@@ -31,5 +31,11 @@
     flex-direction: column;
     align-items: center;
 }
-
+.active{
+    flex-wrap: wrap;
+    
+}
+.activ{
+    margin-top: 40px;
+}
 }

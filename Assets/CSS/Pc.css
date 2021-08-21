@@ -1,4 +1,4 @@
-html, body, header, section, footer{
+body{
     font-family: 'Raleway', Arial, sans-serif;
     margin: 0;
 }
@@ -237,20 +237,56 @@ form{
 
 .active{
     display: flex;
-    
+    padding-left: 0px;
 }
 .activ{
     display: flex;
     flex-direction: column;
-    margin: 20px;
-    border: 20px;
+    height: 445px;
+    width: 300px;
+    margin-right: 40px;
     
+    border-radius: 20px;
 }
-.activ img{
+.imgactiv{
+    height: 90%;
     object-fit: cover;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.imgactiv2{
+    
+    width: 300px;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#imga2{
+    height: 45%;
+}
+#imga3{
+    height: 25%;
+}
+#imga5{
+    height: 40%;
+}
+#imga6{
+    height: 30%;
 }
 .soutitre{
-    display: block;
+    height: 10%;
+    font-weight: bold;
+    margin: unset;
+    background-color: white;
+    border: 1px solid #F2F2F2;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    padding: 15px;
+    margin-bottom: 40px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 
