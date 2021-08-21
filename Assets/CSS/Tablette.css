@@ -21,7 +21,10 @@
     justify-content: space-evenly;
 }
 #hebergement{
-    max-width: auto;
+    flex-direction: column;
+    max-height: 690px;
+    width: auto;
+    align-items: center;
 }
 #populaire{
     display: flex;
