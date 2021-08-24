@@ -20,15 +20,16 @@
         text-align: center;
         border-bottom: 3px solid #f2f2f2;
         padding-bottom: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     #heberg{
         border-top: none;
     }
     #inscri{
         position: absolute;
-        top: 35px;
-        right: 20px;
-        left: 95%;
+        top: 45px;
+        left: 90%;
     }
 
         /* Partie du premier article de la premiere section ( BARRE DE RECHERCHE )*/
@@ -36,21 +37,23 @@
     #search{
         display: none;
     }
+    
     #search1{
-        display: initial;
+        display: block;
         height: 50px;
+        width: 50px;
         font-size: 1.1em;
         background-color: #0065FC;
+        border: 2px solid #0065FC;
+        
         color: white;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
+        border-radius: 15px;
+        
     }
 
         /* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
 
-    #filtre{
-        flex-wrap: wrap;
-    }
+    
 
         /* Partie Hebergement et les plus populaire*/
 

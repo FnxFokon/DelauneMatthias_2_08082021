@@ -4,6 +4,7 @@
 
 #filtre{
     margin: 10px;
+    flex-wrap: wrap;
 }
 #filtre li{
     margin-right: 10px;
@@ -11,31 +12,37 @@
 #filtre li p{
     margin-right: 15px;
 }
+
 /* Partie Hebergement et les plus populaire*/
 
 .section1{
     flex-direction: column-reverse;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.marseille{
+    width: 95%;
+    background-color: white;
+    flex-wrap: wrap;
 }
 .popu{
+    width: 100%;
     margin-bottom: 40px;
-    justify-content: space-evenly;
-}
-#hebergement{
-    flex-direction: column;
-    max-height: 690px;
-    width: auto;
-    align-items: center;
+    border-radius: 0;
 }
 #populaire{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    
+}
+.pop{
+   width: 30%;
 }
 .active{
     flex-wrap: wrap;
-    
+
 }
 .activ{
-    margin-top: 40px;
+    margin-bottom: 40px;
 }
 }
