@@ -1,64 +1,125 @@
 @media screen and (max-width:768px){
     
-        /* Partie de l'entête Logo+Nav*/
-    header{
-        flex-direction: column;
-    }
+
+    /* Partie de l'entête LOGO + NAV */
+
+header{
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+}
+#logo{
+    margin-left: 50px;
     
-    nav{
-        width: 100%;
-        flex-direction: column-reverse;
-        align-items: unset;
+}
+nav{
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: unset;
         
-    }    
-    nav ul{
-        width: 100%;
-        padding: 0;
-    }
-    nav li{
-        width: 100%;
-        text-align: center;
-        border-bottom: 3px solid #f2f2f2;
-        padding-bottom: 15px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    #heberg{
-        border-top: none;
-    }
-    #inscri{
-        position: absolute;
-        top: 45px;
-        left: 90%;
-    }
+}    
+nav ul{
+    width: 100%;
+    padding: 0;
+        
+}
+nav ul li a{
+    font-weight: bold;
+}
+nav li{
+    width: 50%;
+    text-align: center;   
+}
+#heberg{
+    border-top: none;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #0065FC;
+    border-bottom-width: 100%;
+}
+#act{
+    padding-bottom: 15px;
+    border-bottom: 3px solid #f2f2f2;
+    border-bottom-width: 100%;
+}
+#inscri{
+    position: absolute;
+    top: 45px;
+    left: 85%;
+}
 
-        /* Partie du premier article de la premiere section ( BARRE DE RECHERCHE )*/
+    /* Partie du premier article de la premiere section ( BARRE DE RECHERCHE )*/
 
-    #search{
-        display: none;
-    }
+#txt{
+    width: 90%;
+}
+#search{
+    display: none;
+}
     
-    #search1{
-        display: block;
-        height: 50px;
-        width: 50px;
-        font-size: 1.1em;
-        background-color: #0065FC;
-        border: 2px solid #0065FC;
+#search1{
+    position: absolute;
+    right: 5%;
+    display: block;
+    height: 50px;
+    width: 50px;
+    font-size: 1.1em;
+    background-color: #0065FC;
+    border: 2px solid #0065FC;
+    color: white;
+    border-radius: 15px;
         
-        color: white;
-        border-radius: 15px;
-        
-    }
+}
 
-        /* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
+    /* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
 
+/*.filtr{
+    
+    flex-direction: column;
+    align-items:initial; 
+}
+.filtr h3{
+    padding-left: 25px;
+}
+#filtre{
+    padding-left: 0px;
+}*/
     
 
-        /* Partie Hebergement et les plus populaire*/
+    /* PARTIE HEBERGEMENT ET LES PLUS POPULAIRES */
 
+.heberg{
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 40px;
+    border: 1px solid #f2f2f2;
+}
+.imgheberg{
+    height: 70%;
+}
+.txtheber{
+    height: 30%;
+}
+#populaire{
+    display: flex;
+    flex-direction: column;
+}
+.pop{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+    /* PARTIE ACTIVITES A MARSEILLE */
 
-
-
-
+.activ{
+    width: 95%;
+    margin: auto;
+}
+#imga2, #imga3, #imga5, #imga6,.imgactiv{
+    height: 80%;
+}
+.soutitre{
+    height: 20%;
+    
+}
 }

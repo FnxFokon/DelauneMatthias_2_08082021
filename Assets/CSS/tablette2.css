@@ -1,0 +1,20 @@
+@media screen and (max-width:1000px){
+
+/* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
+
+
+
+/* PARTIE HEBERGEMENT ET LES PLUS POPULAIRES */
+
+.marseille{
+    width: 95%;
+    flex-wrap: wrap;
+}
+.heberg{
+    width: 40%;
+}
+
+
+
+
+}
