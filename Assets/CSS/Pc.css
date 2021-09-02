@@ -99,16 +99,16 @@ form{
 
 .filtr{
     display: flex;
-    align-items: center;
+    
 }
 #filtre{
     display: flex;
     font-weight: bold;
     font-size: 1.1em;
+    margin-left: 30px;
 }
 #filtre li{
     display: flex;
-    text-align: center;
     margin: 10px 10px 0px 10px;
     border-radius: 40px;
     border: 2px solid #F2F2F2;
@@ -118,9 +118,11 @@ form{
     background-color: #DEEBFF;
 }
 
-#filtre h3{
-    margin-right: 30px;
+.titrefiltre{
+    position: absolute;
+    margin-top: 45px;
 }
+
 #filtre li i{
     background-color: #DEEBFF;
     min-width: 20px;
@@ -271,6 +273,7 @@ p{
     display: flex;
     padding-left: 0px;
 }
+
 .activ{
     display: flex;
     flex-direction: column;
@@ -279,6 +282,7 @@ p{
     margin-right: 40px;
     border-radius: 20px;
 }
+
 .imgactiv{
     height: 90%;
     object-fit: cover;
@@ -294,18 +298,23 @@ p{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
+
 #imga2{
     height: 45%;
 }
+
 #imga3{
     height: 25%;
 }
+
 #imga5{
     height: 40%;
 }
+
 #imga6{
     height: 30%;
 }
+
 .soutitre{
     height: 10%;
     font-weight: bold;
@@ -317,7 +326,10 @@ p{
     margin-bottom: 40px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-}
+} 
+
+
+
 
  /* FOOTER */
 

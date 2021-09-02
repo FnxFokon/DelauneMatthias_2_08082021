@@ -30,16 +30,17 @@ nav li{
     width: 50%;
     text-align: center;   
 }
-#heberg{
-    border-top: none;
+.h{
     padding-bottom: 15px;
     border-bottom: 3px solid #0065FC;
-    border-bottom-width: 100%;
 }
-#act{
+.a{
     padding-bottom: 15px;
     border-bottom: 3px solid #f2f2f2;
-    border-bottom-width: 100%;
+}
+#heberg{
+    border-top: none;
+
 }
 #inscri{
     position: absolute;
@@ -70,21 +71,6 @@ nav li{
         
 }
 
-    /* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
-
-/*.filtr{
-    
-    flex-direction: column;
-    align-items:initial; 
-}
-.filtr h3{
-    padding-left: 25px;
-}
-#filtre{
-    padding-left: 0px;
-}*/
-    
-
     /* PARTIE HEBERGEMENT ET LES PLUS POPULAIRES */
 
 .heberg{
@@ -109,6 +95,7 @@ nav li{
     margin: auto;
     margin-bottom: 40px;
 }
+
     /* PARTIE ACTIVITES A MARSEILLE */
 
 .activ{
