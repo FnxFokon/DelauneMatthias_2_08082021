@@ -17,6 +17,10 @@ header, section {
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
     /* Partie de l'entête LOGO + NAV */
 
 header{
@@ -38,21 +42,18 @@ nav ul{
 }
 nav li a{
     margin: 50px 30px 0px 0px;
-    color: #0065FC;
-    text-decoration:none; 
+    
 }
 #inscri{
     color: #0065FC;
-    text-decoration:none;
     font-weight: bold;
 }
 #heberg{
+    color: #0065FC;
     border-top: 2px solid #0065fc;
-    padding-top: 39px;
+    padding-top: 29px;
 }
-#act{
-    color: black;
-}
+
 
     /* Partie du premier article de la premiere section ( BARRE DE RECHERCHE )*/
 
@@ -154,6 +155,20 @@ form{
 .section1{
     display: flex;
 }
+.etoile{
+    display: flex;
+}
+h3{
+    font-weight: bold;
+    font-size: 15px;
+}
+p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+    /* PARTIE HEBERGEMENT */
+
 .marseille{
     display: flex;
     flex-direction: column;
@@ -161,14 +176,7 @@ form{
     background-color: #F2F2F2;
     height: auto;
     margin-right: 20px;
-    padding: auto;
     border-radius: 20px;
-}
-.popu{
-    height: auto;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    
 }
 .titremar{
     padding: 25px 0px 0px 40px;
@@ -180,15 +188,6 @@ form{
     flex-wrap: wrap;
     margin: 20px;
     padding-left: 0px;
-}
-#populaire{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    padding-left: 0px;
-    width: 90%;
 }
 .heberg{
     display: flex;
@@ -202,7 +201,9 @@ form{
     padding-bottom: 15px;
     border-radius: 20px;
     margin-bottom: 40px;
-    
+}
+.lienherberg{
+    width: 100%;
 }
 .imgheberg{
     width: 100%;
@@ -216,14 +217,7 @@ form{
     padding-left: 15px;
     font-size: 0.8em;
 }
-h3{
-    font-weight: bold;
-    font-size: 15px;
-}
-p{
-    font-size: 15px;
-    margin-bottom: 20px;
-}
+
 .affplus {
     text-decoration: none;
     color: black;
@@ -231,11 +225,25 @@ p{
     line-height: 40px;
     padding-left: 25px;
 }
-.etoile{
+
+    /* PARTIE POPULAIRE */
+
+#populaire{
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding-left: 0px;
+    width: 90%;
+}
+.popu{
+    height: auto;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    
 }
 .pop{
-    display: flex;
     background-color: white;
     height: auto;
     width: 90%;
@@ -243,6 +251,10 @@ p{
     border: 5px solid white;
     margin-bottom: 35px;
     border-radius: 20px;
+}
+.lienpop{
+    display: flex;
+    width: 100%;
 }
 .imgpop{
     width: 40%; 
@@ -271,65 +283,73 @@ p{
 
 .active{
     display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 0px;
 }
-
 .activ{
+    height: 100%;
+    width: 23%;
+    border-radius: 25px;
+}
+.bigactiv{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+.smallactiv{
     display: flex;
     flex-direction: column;
-    height: 445px;
-    width: 25%;
-    margin-right: 40px;
-    border-radius: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
 }
-
 .imgactiv{
-    height: 90%;
+    width: 100%;
+    height: 450px;
     object-fit: cover;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
-
 .imgactiv2{
     width: 100%;
     object-fit: cover;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
-
 #imga2{
-    height: 45%;
+    height: 240px;
 }
-
 #imga3{
-    height: 25%;
+    margin-top: 40px;
+    height: 120px;
 }
-
 #imga5{
-    height: 40%;
+    height: 180px;
 }
-
 #imga6{
-    height: 30%;
+    margin-top: 40px;
+    height: 180px;
 }
-
 .soutitre{
-    height: 10%;
+    width: 95%;
+    height: 50px;
+    display: flex;
+    align-items: center;
     font-weight: bold;
     margin: unset;
-    background-color: white;
     border: 1px solid #F2F2F2;
+    border-top: none;
+    padding-left: 5%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
-    padding: 15px;
-    margin-bottom: 40px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 } 
-
-
-
 
  /* FOOTER */
 
