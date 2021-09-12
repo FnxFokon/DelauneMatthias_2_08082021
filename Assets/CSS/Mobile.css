@@ -10,18 +10,15 @@ header{
 }
 #logo{
     margin-left: 50px;
-    
 }
 nav{
     width: 100%;
     flex-direction: column-reverse;
-    align-items: unset;
-        
+    align-items: unset;   
 }    
 nav ul{
     width: 100%;
-    padding: 0;
-        
+    padding: 0;    
 }
 nav ul li a{
     font-weight: bold;
@@ -40,7 +37,6 @@ nav li{
 }
 #heberg{
     border-top: none;
-
 }
 #inscri{
     position: absolute;
@@ -56,7 +52,6 @@ nav li{
 #search{
     display: none;
 }
-    
 #search1{
     position: absolute;
     right: 5%;
@@ -67,54 +62,77 @@ nav li{
     background-color: #0065FC;
     border: 2px solid #0065FC;
     color: white;
-    border-radius: 15px;
-        
+    border-radius: 15px;   
 }
 
-    /* PARTIE HEBERGEMENT ET LES PLUS POPULAIRES */
+    /* Partie du deuxieme article de la premiere section ( PARTIE FILTRES ) */
 
+.filtr{
+    flex-direction: column;
+    flex-direction: column;
+}
+#filtre{
+    margin: unset;
+    padding: unset;
+}
+#filtre li{
+    margin: 10px 20px 10px 0px;
+}
+.titrefiltre{
+    position: unset;
+}
+    /* PARTIE HEBERGEMENT */
+
+#herbegement{
+    margin: none;
+}
+.titremar{
+    padding: 3% 0% 3% 7%;
+}
 .heberg{
-    width: 95%;
+    width: 85%;
     margin: auto;
     margin-bottom: 40px;
     border: 1px solid #f2f2f2;
 }
 .imgheberg{
-    height: 350px;
+    height: 200px;
 }
+.affplus{
+    padding-left: 7%;
+}
+
+    /* PARTIE POPULAIRE */
 
 #populaire{
     display: flex;
     flex-direction: column;
 }
 .pop{
-    width: 95%;
+    width: 85%;
     margin: auto;
     margin-bottom: 40px;
 }
-
+.titrepop{
+    padding-bottom: 15px;
+    margin: 0% 8% 0% 8%;
+    
+}
     /* PARTIE ACTIVITES A MARSEILLE */
 
+#activite{
+    margin-left: 48px;
+    margin-right: 48px;
+}
 .activ{
-    width: 95%;
+    width: 100%;
     margin-bottom: 40px;
 }
-.imgactiv{
-    height: 350px;
+#imga2, #imga3, #imga5, #imga6, .imgactiv{
+    height: 250px;
 }
-#imga2{
-    height: 350px;
-}
-#imga3{
+#imga3, #imga6{
     margin-top: 40px;
-    height: 350px;
-}
-#imga5{
-    height: 350px;
-}
-#imga6{
-    margin-top: 40px;
-    height: 350px;
 }
 
     /* FOOTER */

@@ -21,6 +21,7 @@ a{
     text-decoration: none;
     color: black;
 }
+
     /* Partie de l'entête LOGO + NAV */
 
 header{
@@ -42,7 +43,6 @@ nav ul{
 }
 nav li a{
     margin: 50px 30px 0px 0px;
-    
 }
 #inscri{
     color: #0065FC;
@@ -53,7 +53,6 @@ nav li a{
     border-top: 2px solid #0065fc;
     padding-top: 29px;
 }
-
 
     /* Partie du premier article de la premiere section ( BARRE DE RECHERCHE )*/
 
@@ -100,7 +99,6 @@ form{
 
 .filtr{
     display: flex;
-    
 }
 #filtre{
     display: flex;
@@ -118,12 +116,10 @@ form{
 #filtre li:hover{
     background-color: #DEEBFF;
 }
-
 .titrefiltre{
     position: absolute;
     margin-top: 45px;
 }
-
 #filtre li i{
     background-color: #DEEBFF;
     min-width: 20px;
@@ -154,6 +150,7 @@ form{
 
 .section1{
     display: flex;
+    justify-content: space-between;
 }
 .etoile{
     display: flex;
@@ -174,8 +171,8 @@ p{
     flex-direction: column;
     justify-content: center;
     background-color: #F2F2F2;
+    width: 70%;
     height: auto;
-    margin-right: 20px;
     border-radius: 20px;
 }
 .titremar{
@@ -217,7 +214,12 @@ p{
     padding-left: 15px;
     font-size: 0.8em;
 }
-
+.txtheber h3{
+    font-size: 1.1em;
+}
+.txtheber p{
+    font-size: 0.9em;
+}
 .affplus {
     text-decoration: none;
     color: black;
@@ -241,7 +243,7 @@ p{
     height: auto;
     background-color: #F2F2F2;
     border-radius: 20px;
-    
+    width: 25%;
 }
 .pop{
     background-color: white;
@@ -266,6 +268,12 @@ p{
 .txtpop{
     padding-left: 15px;
     font-size: 0.8em;
+}
+.txtpop h3{
+    font-size: 1.1em;
+}
+.txtpop p{
+    font-size: 0.9em;
 }
 .titrepop{
     display: flex;
@@ -361,7 +369,9 @@ p{
     padding-bottom: 30px;
 }
 .baspage div{
-    width: 30%;  
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .titraide{
     font-weight: bold;
@@ -373,49 +383,3 @@ p{
     color: black;
     line-height: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.class{
-    pour les class 
-border-left: 5px solid white;
-border-right: 5px solid white;
-border-top: 5px solid white;
-border-radius: 10px solid white;
-} */
-/* .class:hover{ (survoler)
-    color: green;
-    border-left: 3px solid black;
-}
-.class:active{ 
-    color:red;
-}
-.class:visited{ (lien visiter)
-    color: none;
-}   */
-
-
-/*  font-size: 14px; taille d'un texte flat
-    font-size: large; taille d'un texte relative 
-    Font-size: 1.0em taille d'un texte relative mais plus flexible avec plus de valeur */
