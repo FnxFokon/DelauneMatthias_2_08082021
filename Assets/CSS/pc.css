@@ -2,7 +2,7 @@ body{
     font-family: 'Raleway', Arial, sans-serif;
     margin: 0;
 }
-header, section {
+header, main{
     font-family: 'Raleway', Arial, sans-serif;
     width: auto;
     margin-left: 50px;
@@ -56,7 +56,7 @@ nav li a{
 
     /* Partie du premier article de la premiere section ( BARRE DE RECHERCHE )*/
 
-.section h1{
+.div h1{
     font-size: 1.4em;
 }
 .section p{
