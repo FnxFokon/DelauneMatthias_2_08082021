@@ -11,27 +11,29 @@
     margin-right: 0;
 }
 .marseille{
+    padding-left: 50px;
     background-color: white;
-    
-    width: 100%;
+    width: 90%;
     flex-wrap: wrap;
 }
 
     /* PARTIE HEBERGEMENT */
 
 #hebergement{
-    margin: 0px;
+    margin: 0px
+    
 }
 .titremar{
     padding-left: 5%;
     padding-bottom: 30px;
+    padding-left: 0px;
 }
 .heberg{
     box-shadow: 5px 5px 5px 1px #f2f2f2;
-    width: 40%;
+    width: 45%;
 }
 .affplus{
-    padding-left: 5%;
+    padding-left: 0%;
 }
 
     /* PARTIE POPULAIRE */
@@ -43,9 +45,10 @@
 }
 .popu{
     width: 100%;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
     margin-bottom: 40px;
     border-radius: 0;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 #populaire{
     flex-direction: column;
